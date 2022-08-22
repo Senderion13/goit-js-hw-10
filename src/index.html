@@ -7,6 +7,37 @@
     <title>Homework 10</title>
   </head>
   <body>
+    <style>
+      .country-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .country-list li {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+      }
+
+      .country-list img {
+        width: 30px;
+        height: fit-content;
+        margin-right: 10px;
+      }
+
+      .country-info div {
+        display: flex;
+        align-items: center;
+      }
+
+      .country-info img {
+        width: 30px;
+        height: fit-content;
+        margin-right: 10px;
+      }
+    </style>
+
     <input type="text" id="search-box" />
     <ul class="country-list"></ul>
     <div class="country-info"></div>
